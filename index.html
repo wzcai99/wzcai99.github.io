@@ -2,42 +2,51 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <title>Wenzhe Cai</title>
-
     <meta name="author" content="Wenzhe Cai">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/icon.jpeg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
   </head>
 
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Wenzhe Cai
-                </p>
-                <p>I have been a PhD student since 2019 in the <a href="https://automation.seu.edu.cn/">School of Automation</a>, <a href="https://ieeexplore.ieee.org/author/37279060100">Southeast University</a>, advised by Prof. <a href="https://www.seu.edu.cn/">Changyin Sun</a>. 
-                Prior to this, I also got my bechlor degree in the school of Automation, Southeast University. Currently, I am a visiting student in the <a href="https://cfcs.pku.edu.cn/english/index.htm"> Center on Frontiers of Computing Studies (CFCS) at Peking University</a>, advised by Prof. <a href="https://zsdonghao.github.io/">Hao Dong</a>. 
-                I also used to be an intern at <a href="http://dev3.noahlab.com.hk/">Noah's Ark Lab</a> and <a href="https://www.pcl.ac.cn/html/941/">Pengcheng Laboratory</a>. 
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:wz_cai@seu.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <a href="">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=NHQcCyAAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/wzcai99/">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/favicon/cwz.jpg"><img style="width:60%;max-width:60%" alt="profile photo" src="images/favicon/cwz.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+      <tr onmouseout="pixnav_stop()" onmouseover="pixnav_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='pixnav_image'>
+            <img src='images/PixNav.jpg' width="180"></div>
+            <img src='images/PixNav.jpg' width="170">
+          </div>
+          <script type="text/javascript">
+            function pixnav_start() {
+              document.getElementById('pixnav_image').style.opacity = "1";
+            }
+            function pixnav_stop() {
+              document.getElementById('pixnav_image').style.opacity = "0";
+            }
+            pixnav_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://arxiv.org/pdf/2309.10309.pdf">
+            <span class="papertitle">Bridging Zero-Shot Object Navigation and Foundation Models through Pixel-Guided Navigation Skill</span>
+          </a>
+          <br>
+          <strong>Wenzhe Cai</strong>, Siyuan Huang, Guangran Cheng, Yuxing Long, Peng Gao, Changyin Sun, Hao Dong
+          <br>
+          <em>Arxiv 2023</em>
+          <br>
+          <a href="https://sites.google.com/view/pixnav">Website</a>
+          /
+          <a href="https://arxiv.org/pdf/2309.10309.pdf">Paper</a>
+	        /
+          <a href="https://github.com/wzcai99/Pixel-Navigator">Github</a>
+          <p>
+          An RGB-based solution (without explicit map) for zero-shot object navigation.
+          </p>
+        </td>
+      </tr>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
@@ -87,24 +96,22 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='alignerf_image'>
-                    <img src='images/PixNav.jpg' width="160"></div>
-                  <img src='images/PixNav.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function alignerf_start() {
-                    document.getElementById('alignerf_image').style.opacity = "1";
-                  }
-  
-                  function alignerf_stop() {
-                    document.getElementById('alignerf_image').style.opacity = "0";
-                  }
-                  alignerf_stop()
-                </script>
-              </td>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='amesac_image'>
+                <img src='images/AME-SAC.png' width="180"></div>
+                <img src='images/AME-SAC.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function amesac_start() {
+                  document.getElementById('amesac_image').style.opacity = "1";
+                }
+                function amesac_stop() {
+                  document.getElementById('amesac_image').style.opacity = "0";
+                }
+                amesac_stop()
+              </script>
+            </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                 <span class="papertitle">Robust Navigation with Cross-Modal Fusion and Knowledge Transfer</span>
                 <br>
@@ -155,6 +162,7 @@
               </tbody></table>
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='worldmodel_image'>
